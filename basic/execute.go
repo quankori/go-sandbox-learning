@@ -1,0 +1,35 @@
+package basic
+
+import "fmt"
+
+func Execute() {
+	fmt.Println("=== Testing variable ===")
+	variable()
+	constant()
+	fmt.Println("=== Testing function ===")
+	area, _ := function(10.8, 5.6)
+	fmt.Println("Function result: ", area)
+	fmt.Println("=== Testing flow of control ===")
+	condition()
+	loop()
+	switchCase()
+	fmt.Println("=== Testing collection ===")
+	array()
+	slices()
+	fmt.Println("=== Testing error exception ===")
+	errorException()
+	fmt.Println("=== Testing variadic ===")
+	variadic()
+	fmt.Println("=== Testing maps ===")
+	maps()
+	fmt.Println("=== Testing pointer ===")
+	pointer()
+	fmt.Println("=== Testing structs ===")
+	structures()
+	fmt.Println("=== Testing methods ===")
+	methods()
+	fmt.Println("=== Testing interfaces ===")
+	interfaces()
+	fmt.Println("=== Testing defers ===")
+	defers()
+}

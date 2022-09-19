@@ -1,12 +1,10 @@
 package main
 
-import (
-	"github.com/quankori/go-learning/basic"
-	"github.com/quankori/go-learning/security"
-)
+import "github.com/quankori/go-learning/channel"
 
 func main() {
-	basic.Execute()
+	// basic.Execute()
 	// advanced.Execute()
-	security.Execute()
+	// security.Execute()
+	channel.Execute()
 }
